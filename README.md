@@ -1,7 +1,7 @@
 # [DanMelton](https://github.com/danmelton)’s dotfiles
 
-These are my dotfiles. Feel free to use. They are based, loosely on alrra's files, with a couple more gems.
+These are my dotfiles. Feel free to use. They are based on alrra's files, with a couple more applications, shortcuts, yada.
 
 ## Setup
 
-        bash -c "$(curl -LsS https://raw.github.com/alrra/dotfiles/master/setup.sh)"
+        Git clone to a folder of your choice, then run ./setup.sh

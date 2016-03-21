@@ -23,10 +23,13 @@ main() {
 
     brew_install 'Bash' 'bash'
     print_in_green '\n  ---\n\n'
+    ./change_default_bash_version.sh
     brew_install 'Bash Completion 2' 'bash-completion2' 'homebrew/versions'
     print_in_green '\n  ---\n\n'
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    brew_install 'DockerToolBox' 'Caskroom/cask/dockertoolbox'
+    print_in_green '\n  ---\n\n'
     brew_install 'Skitch' 'skitch' 'caskroom/cask' 'cask'
     print_in_green '\n  ---\n\n'
     brew_install 'Evernote' 'evernote' 'caskroom/cask' 'cask'
@@ -42,14 +45,20 @@ main() {
     brew_install 'Firefox' 'firefox' 'caskroom/cask' 'cask'
     print_in_green '\n  ---\n\n'
     brew_install 'Flash' 'flash' 'caskroom/cask' 'cask'
+    print_in_green '\n  ---\n\n'
     brew_install 'ImageAlpha' 'imagealpha' 'caskroom/cask' 'cask'
+    print_in_green '\n  ---\n\n'
     brew_install 'ImageMagick' 'imagemagick --with-webp'
+    print_in_green '\n  ---\n\n'
     brew_install 'ImageOptim' 'imageoptim' 'caskroom/cask' 'cask'
+    print_in_green '\n  ---\n\n'
     brew_install 'LICEcap' 'licecap' 'caskroom/cask' 'cask'
+    print_in_green '\n  ---\n\n'
     brew_install 'Spectacle' 'spectacle' 'caskroom/cask' 'cask'
+    print_in_green '\n  ---\n\n'
     brew_install 'VirtualBox' 'virtualbox' 'caskroom/cask' 'cask'
+    print_in_green '\n  ---\n\n'
     brew_install 'Zopfli' 'zopfli'
-
     print_in_green '\n  ---\n\n'
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

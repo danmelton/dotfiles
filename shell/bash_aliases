@@ -17,7 +17,6 @@ alias cd..='cd ..'
 alias :q='exit'
 alias c='clear'
 alias ch='history -c && > ~/.bash_history'
-alias e='vim'
 alias g='git'
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias ll='ls -l'
@@ -31,11 +30,7 @@ alias rm='rm -rf'
 
 # Load OS specific aliases
 
-if [ "$OS" == 'osx' ]; then
-    source "$DOTFILES_DIR_PATH/shell/os_x/bash_aliases"
-elif [ "$OS" == 'ubuntu' ]; then
-    source "$DOTFILES_DIR_PATH/shell/ubuntu/bash_aliases"
-fi
+source "$DOTFILES_DIR_PATH/shell/os_x/bash_aliases"
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

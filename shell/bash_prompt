@@ -21,12 +21,7 @@ enable_color_support() {
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     # Load OS specific color support
-
-    if [ "$OS" == 'osx' ]; then
-        source "$DOTFILES_DIR_PATH/shell/os_x/bash_colors"
-    elif [ "$OS" == 'ubuntu' ]; then
-        source "$DOTFILES_DIR_PATH/shell/ubuntu/bash_colors"
-    fi
+    source "$DOTFILES_DIR_PATH/shell/os_x/bash_colors"
 
 }
 

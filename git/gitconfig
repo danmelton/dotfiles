@@ -132,3 +132,6 @@
 [include]
 
     path = ~/.gitconfig.local
+[user]
+	email = melton.dan@gmail.com
+	name = Dan Melton
