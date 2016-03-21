@@ -28,7 +28,15 @@ main() {
     print_in_green '\n  ---\n\n'
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    brew_install 'Dash' 'dash' 'caskroom/cask' 'cask'
+    print_in_green '\n  ---\n\n'
+    brew_install 'Cheatsheet' 'cheatsheet' 'caskroom/cask' 'cask'
+    print_in_green '\n  ---\n\n'
+    brew_install 'Appcleaner' 'appcleaner' 'caskroom/cask' 'cask'
+    print_in_green '\n  ---\n\n'
     brew_install 'DockerToolBox' 'Caskroom/cask/dockertoolbox'
+    print_in_green '\n  ---\n\n'
+    brew_install 'Flux' 'flux' 'caskroom/cask' 'cask'
     print_in_green '\n  ---\n\n'
     brew_install 'Skitch' 'skitch' 'caskroom/cask' 'cask'
     print_in_green '\n  ---\n\n'
