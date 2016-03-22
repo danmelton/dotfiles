@@ -16,6 +16,7 @@ declare -a FILES_TO_SYMLINK=(
     'shell/bashrc'
     'shell/curlrc'
     'shell/inputrc'
+    'shell/vimrc'
     'shell/screenrc'
 
     'git/gitattributes'
