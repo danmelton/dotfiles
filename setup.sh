@@ -40,6 +40,9 @@ main() {
 
     if answer_is_yes; then
 
+        ./os/install_ruby_packages.sh
+        print_in_green '\n  ---\n\n'
+
         ./os/install_applications.sh
         print_in_green '\n  ---\n\n'
 
