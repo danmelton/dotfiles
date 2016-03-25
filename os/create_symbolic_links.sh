@@ -18,7 +18,7 @@ declare -a FILES_TO_SYMLINK=(
     'shell/inputrc'
     'shell/vimrc'
     'shell/screenrc'
-
+    'shell/bash_git'
     'git/gitattributes'
     'git/gitconfig'
     'git/gitignore'
