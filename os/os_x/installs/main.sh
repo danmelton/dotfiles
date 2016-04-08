@@ -68,7 +68,7 @@ main() {
     print_in_green '\n  ---\n\n'
     brew_install 'Zopfli' 'zopfli'
     print_in_green '\n  ---\n\n'
-
+    brew install scala --with-docs
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     ./update_and_upgrade.sh
