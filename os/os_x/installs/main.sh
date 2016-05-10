@@ -69,6 +69,10 @@ main() {
     brew_install 'Zopfli' 'zopfli'
     print_in_green '\n  ---\n\n'
     brew install scala --with-docs
+    print_in_green '\n  ---\n\n'
+    brew install flow
+    print_in_green '\n  ---\n\n'
+    brew install watchman
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     ./update_and_upgrade.sh
