@@ -72,3 +72,12 @@ alias u='sudo softwareupdate --install --all \
             && brew cleanup \
             && npm install -g npm \
             && npm update -g'
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Docker
+
+alias dm='docker-machine'
+alias dml='docker-machine ls'
+alias dml='docker-machine ls'
+alias d='docker'
