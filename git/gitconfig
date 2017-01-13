@@ -107,6 +107,7 @@
     autocrlf = input
     editor = vim
     excludesfile = ~/.gitignore
+	ignorecase = false
 
 [diff "bin"]
 
@@ -135,3 +136,7 @@
 [user]
 	email = melton.dan@gmail.com
 	name = Dan Melton
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true

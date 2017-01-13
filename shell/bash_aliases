@@ -18,6 +18,9 @@ alias :q='exit'
 alias c='clear'
 alias ch='history -c && > ~/.bash_history'
 alias g='git'
+alias gp="git pull origin"
+alias gc="git commit"
+alias gpu="git push origin"
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias ll='ls -l'
 alias m='man'
@@ -25,7 +28,6 @@ alias map='xargs -n1'
 alias n='npm'
 alias q='exit'
 alias rm='rm -rf'
-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Load OS specific aliases
