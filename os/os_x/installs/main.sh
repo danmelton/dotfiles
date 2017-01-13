@@ -70,7 +70,11 @@ main() {
     print_in_green '\n  ---\n\n'
     brew_install 'Pyenv' 'pyenv'
     print_in_green '\n  ---\n\n'
-
+    brew install scala --with-docs
+    print_in_green '\n  ---\n\n'
+    brew install flow
+    print_in_green '\n  ---\n\n'
+    brew install watchman
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     ./update_and_upgrade.sh
