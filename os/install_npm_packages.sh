@@ -9,6 +9,8 @@ declare -r -a NPM_PACKAGES=(
     'babel-cli'
     'jshint'
     'svgo'
+    'ethereumjs-testrpc'
+    'truffle'
 )
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
