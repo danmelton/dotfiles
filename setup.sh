@@ -50,7 +50,10 @@ main() {
         print_in_green '\n  ---\n\n'
 
         ./os/install_npm_packages.sh
+        print_in_green '\n  ---\n\n'
 
+        ./os/install_java_packages.sh
+        print_in_green '\n  ---\n\n'
     fi
 
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
