@@ -64,20 +64,8 @@ alias o='open'
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# Update
+# Java Environments
 
-alias u='sudo softwareupdate --install --all \
-            && brew update \
-            && brew upgrade --all \
-            && brew cleanup \
-            && npm install -g npm \
-            && npm update -g'
-
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-# Docker
-
-alias dm='docker-machine'
-alias dml='docker-machine ls'
-alias dml='docker-machine ls'
-alias d='docker'
+alias j1.8='javahome 1.8'
+alias j11='javahome 11'
+alias j17='javahome 17'

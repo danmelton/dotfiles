@@ -7,7 +7,6 @@
 
 declare DOTFILES_DIR_PATH="$(dirname $(dirname $(readlink $BASH_SOURCE)))"
 
-source "$DOTFILES_DIR_PATH/os/utils.sh"
 # ----------------------------------------------------------------------
 
 # Enable programmable completion features

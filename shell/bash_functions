@@ -229,3 +229,17 @@ httpd.serve_forever()
     " "$port"
 
 }
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+# Swap Java Environments
+
+javahome() {
+  unset JAVA_HOME
+  export JAVA_HOME=$(/usr/libexec/java_home -v "$1");
+  java -version
+}
+
+function pip-install-save {
+    pip install $1 && pip freeze | grep $1 >> requirements.txt
+}

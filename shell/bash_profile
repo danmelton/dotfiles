@@ -9,8 +9,8 @@ source_bash_files() {
 
     declare -r -a FILES_TO_SOURCE=(
         'bash_aliases'
-        'bash_autocomplete'
         'bash_exports'
+        'bash_autocomplete'
         'bash_functions'
         'bash_options'
         'bash_prompt'
@@ -34,6 +34,10 @@ unset -f source_bash_files
 # Clear system messages (e.g.: system copyright notice, the
 # date and time of the last login, the message of the day, etc.)
 
-clear
-eval "$(rbenv init -)"
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+#clear
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/dan/Downloads/google-cloud-sdk/path.bash.inc' ]; then . '/Users/dan/Downloads/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/dan/Downloads/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/dan/Downloads/google-cloud-sdk/completion.bash.inc'; fi

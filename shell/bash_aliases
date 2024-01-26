@@ -2,9 +2,6 @@
 
 declare DOTFILES_DIR_PATH="$(dirname $(dirname $(readlink $BASH_SOURCE)))"
 
-source "$DOTFILES_DIR_PATH/os/utils.sh" \
-    && declare OS="$(get_os)"
-
 # ----------------------------------------------------------------------
 
 alias ..='cd ..'
@@ -22,13 +19,13 @@ alias gp="git pull origin"
 alias gc="git commit -m"
 alias gpu="git push origin"
 alias ip='dig +short myip.opendns.com @resolver1.opendns.com'
-alias ll='ls -l'
+alias l='ls -l'
 alias m='man'
 alias map='xargs -n1'
 alias n='npm'
+alias y='yarn'
 alias q='exit'
 alias rm='rm -rf'
-alias t='truffle'
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Load OS specific aliases
