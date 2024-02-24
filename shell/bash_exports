@@ -20,10 +20,20 @@ export PATH="/Applications/WebStorm.app/Contents/MacOS:$PATH"
 export PATH="/Users/dan/.flashlight/bin:$PATH"
 export PATH="$PATH":"$HOME/.maestro/bin"
 
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/dan/code/google-cloud-sdk/path.bash.inc' ]; then . '/Users/dan/code/google-cloud-sdk/path.bash.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/dan/code/google-cloud-sdk/completion.bash.inc' ]; then . '/Users/dan/code/google-cloud-sdk/completion.bash.inc'; fi
+
 # Python
 
 # Make Python use UTF-8 encoding for output to stdin/stdout/stderr
 export PYTHONIOENCODING='UTF-8'
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 
 # Make vim the default editor
 export EDITOR='vim'
