@@ -38,3 +38,5 @@ source "$DOTFILES_DIR_PATH/shell/os_x/bash_aliases"
 
 unset DOTFILES_DIR_PATH
 unset OS
+
+alias cypher-shell='/Users/dan/code/cypher-shell-5.15.0/bin/cypher-shell'

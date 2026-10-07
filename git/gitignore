@@ -57,3 +57,5 @@ Session.vim
 Desktop.ini
 ehthumbs.db
 Thumbs.db
+
+**/.claude/settings.local.json
